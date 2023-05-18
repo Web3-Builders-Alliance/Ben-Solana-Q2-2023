@@ -17,7 +17,7 @@ const connection = new Connection("https://api.devnet.solana.com");
             SystemProgram.transfer({
                 fromPubkey: from.publicKey,
                 toPubkey:  to,
-                lamports: LAMPORTS_PER_SOL/100,
+                lamports: LAMPORTS_PER_SOL/1000,
             })
         );
         transaction.recentBlockhash = (await connection.getLatestBlockhash('confirmed')).blockhash;
