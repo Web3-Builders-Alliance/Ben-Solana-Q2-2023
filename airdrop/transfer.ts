@@ -2,11 +2,11 @@ import { Transaction, SystemProgram, Connection, Keypair, LAMPORTS_PER_SOL, send
 
 import wallet from "./dev-wallet.json"
 
-// Import our dev wallet keypair from the wallet file
+// Import our dev wallet keypair from the wallet file (the address we are sending SOL FROM, i.e. the sender/signer/payer)
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 
-// Define our WBA public key
-const to = new PublicKey("GLtaTaYiTQrgz411iPJD79rsoee59HhEy18rtRdrhEUJ");
+// Define the public key we will be sending SOL to (i.e. the recipient)
+const to = new PublicKey("88qcoAYGpHhyKsoLYfcM9ghNkxtAw29sQAbN4YybmqNA");
 
 //Create a Solana devnet connection
 const connection = new Connection("https://api.devnet.solana.com");
