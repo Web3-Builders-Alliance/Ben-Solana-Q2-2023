@@ -6,7 +6,7 @@ dev-wallet.json pubkey (1):
 GiJrzPkDzouJQWhktc3BNeHRcsBuH8RpFjD99LTfjSY8
 
 ---
-2nd_wallet pubkey (2):
+wba-wallet.json pubkey (2):
 88qcoAYGpHhyKsoLYfcM9ghNkxtAw29sQAbN4YybmqNA
 
 ---
